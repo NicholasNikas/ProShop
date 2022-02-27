@@ -20,8 +20,6 @@ const ProductScreen = () => {
     dispatch(listProductDetails(id))
   }, [dispatch, id])
 
-  console.log(navigate)
-
   const addToCartHandler = () => {
     navigate(`/cart/${id}?qty=${quantity}`)
   }
