@@ -28,7 +28,7 @@ const OrderScreen = () => {
     if (!order || order._id !== orderId) {
       dispatch(getOrderDetails(orderId))
     }
-  }, [order, orderId])
+  }, [dispatch, order, orderId])
 
   const { address, city, postalCode, country } = order.shippingAddress
 
