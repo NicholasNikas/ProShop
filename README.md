@@ -3,9 +3,7 @@ Eccomerce Website selling electronic devices using React, Node, Express and Mong
 
 Deployed app on production: https://proshopapp248.herokuapp.com/
 
-To log in click sign in on top right and use account:
-username: john@example.com
-password: 123456
+To log in click register to create an account
 
 To be administrator use account:
 username: admin@example.com
